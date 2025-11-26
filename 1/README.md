@@ -39,7 +39,7 @@ This project uses Docker to ensure reproducibility. Follow these steps to run th
 
 4.  **Open Jupyter Notebook:**
     Click the link provided in the terminal or go to:
-    👉 **http://localhost:8881**
+     **http://localhost:8881**
 
 5.  **Run the Code:**
     Open `1_serov.ipynb`. The first cell installs all necessary Python dependencies (`torch`, `transformers`, `scikit-learn`, etc.). Execute cells sequentially.
