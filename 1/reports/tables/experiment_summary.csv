@@ -1,0 +1,7 @@
+Dataset,Model,Train ARI,Threshold,Epochs,Scale,Best Threshold
+wiki-wiki,MPNet-Base,1.0,2.9798657718120807,,,
+bts-rnc,ai-forever/ruRoberta-large,0.8627564799113336,,4.0,25.0,1.7114093959731544
+active-dict,ai-forever/ruRoberta-large,0.5456766929597746,,4.0,25.0,1.5
+wiki-wiki,sentence-transformers/paraphrase-multilingual-mpnet-base-v2,1.0,,4.0,20.0,3.3322147651006713
+bts-rnc,ai-forever/ruRoberta-large,0.8627564799113336,,4.0,25.0,1.7114093959731544
+active-dict,ai-forever/ruRoberta-large,0.6599152368820883,,4.0,25.0,0.7650602409638555
