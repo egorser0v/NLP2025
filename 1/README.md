@@ -63,10 +63,10 @@ We employed a **"Fine-tune & Cluster"** pipeline:
 
 ## Results
 
-The table below summarizes the best performance (Adjusted Rand Index - ARI) achieved on the datasets.
+The table below summarizes the best performance (Adjusted Rand Index - ARI) achieved on the datasets on train/val/test.
 
 
-| Dataset | Model Architecture | Train ARI | Threshold ($\tau$) | CodaLab (Practice) | CodaLab (Test) |
+| Dataset | Model Architecture | Train ARI | Threshold ($\tau$) | CodaLab (Practice) (Validation) | CodaLab (Test) |
 |:---|:---|:---|:---|:---|:---|
 | **wiki-wiki (v1)** | `paraphrase-mpnet-base` | 1.0000 | 3.33 | **0.9649** | 0.5971 |
 | **wiki-wiki (v2)** | `ruRoberta-large` | 1.0000 | 2.66 | 0.6169 | **0.8981** |

@@ -1,1 +1,1 @@
-# Assignment 3:  Taxonomy Enrichment
+# Assignment 3: Taxonomy Enrichment
