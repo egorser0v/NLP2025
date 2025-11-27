@@ -65,10 +65,13 @@ We employed a **"Fine-tune & Cluster"** pipeline:
 
 The table below summarizes the best performance (Adjusted Rand Index - ARI) achieved on the datasets.
 
-| Dataset       | Model Architecture           | Threshold ($\tau$) | Practice (ARI) | Test (ARI) |
-|:--------------|:-----------------------------|:-------------------|:---------------|:-----------|
-| **wiki-wiki** | `paraphrase-mpnet-base-v2`   | 3.33               | **0.9649**     | *TBD*      |
-| **bts-rnc**   | `ruRoberta-large`            | 1.71               | **0.6615**     | **0.5928** |
-| **active-dict**| `ruRoberta-large`           | 0.77               | **0.5289**     | **0.4290** |
+
+| Dataset | Model Architecture | Train ARI | Threshold ($\tau$) | CodaLab (Practice) | CodaLab (Test) |
+|:---|:---|:---|:---|:---|:---|
+| **wiki-wiki (v1)** | `paraphrase-mpnet-base` | 1.0000 | 3.33 | **0.9649** | 0.5971 |
+| **wiki-wiki (v2)** | `ruRoberta-large` | 1.0000 | 2.66 | 0.6169 | **0.8981** |
+| **bts-rnc** | `ruRoberta-large` | 0.8628 | 1.71 | **0.6615** | **0.5928** |
+| **active-dict** | `ruRoberta-large` | 0.6599 | 0.77 | **0.5289** | **0.4290** |
+| *Baseline* | *Random (All Datasets)* | *~0.00* | *-* | *-* | *-* |
 
 Detailed analysis and threshold plots can be found in the notebook and `reports/figures`.
