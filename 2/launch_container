@@ -19,11 +19,11 @@ docker run \
   --init \
   --gpus "device=4" \
   -v "${CURRENT_DIR}:/app" \
-  -p 8882:8882 \
-  ${DOCKER_NAME} bash -c "jupyter notebook --allow-root --ip='0.0.0.0' --port=8882 --NotebookApp.token='' --NotebookApp.password=''"
+  -p 8883:8883 \
+  ${DOCKER_NAME} bash -c "jupyter notebook --allow-root --ip='0.0.0.0' --port=8883 --NotebookApp.token='' --NotebookApp.password=''"
 
 echo "------------------------------------------------------------------"
-echo "Jupyter Notebook is running at: http://localhost:8882"
+echo "Jupyter Notebook is running at: http://localhost:8883"
 echo "------------------------------------------------------------------"
 echo "Entering container shell... (Type 'exit' to leave shell, Notebook will keep running)"
 
