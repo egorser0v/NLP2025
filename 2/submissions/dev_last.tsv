@@ -1,7 +1,7 @@
 meanwhile	O
 ,	O
 though	O
-windows	O
+windows	B-Object
 8	O
 is	O
 significantly	O
@@ -35,14 +35,14 @@ still	O
 significantly	O
 safer	B-Predicate
 than	O
-windows	O
+windows	B-Object
 7	O
 ,	O
-windows	O
+windows	B-Object
 xp	B-Object
 ,	O
 or	O
-windows	O
+windows	B-Object
 vista	B-Object
 .	O
 
@@ -93,7 +93,7 @@ xp	O
 i	O
 have	O
 tried	O
-windows	O
+windows	B-Object
 8	O
 and	O
 it	O
@@ -101,20 +101,20 @@ it	O
 s	O
 lighter	B-Predicate
 than	O
-windows	O
+windows	B-Object
 xp	B-Object
 .	O
 
 moreover	O
 ,	O
-windows	O
+windows	B-Object
 8	O
 is	O
 even	O
 lighter	B-Predicate
 on	O
 your	O
-resources	O
+resources	B-Aspect
 than	O
 windows	O
 7	O
@@ -122,7 +122,7 @@ windows	O
 but	O
 heavier	B-Predicate
 than	O
-windows	O
+windows	B-Object
 xp	O
 ,	O
 of	O
@@ -136,7 +136,7 @@ for	O
 most	O
 consumers	O
 ,	O
-choosing	B-Aspect
+choosing	O
 a	O
 windows	O
 8	O
@@ -198,7 +198,7 @@ and	O
 less	B-Predicate
 expensive	I-Predicate
 than	O
-upgrading	O
+upgrading	B-Aspect
 from	O
 windows	O
 xp	O
@@ -210,7 +210,7 @@ he	O
 said	O
 .	O
 
-windows	O
+windows	B-Aspect
 8	O
 is	O
 21	O
@@ -221,7 +221,7 @@ times	O
 safer	B-Predicate
 than	O
 windows	O
-xp	B-Object
+xp	O
 and	O
 windows	O
 7	O
@@ -233,20 +233,20 @@ per	O
 microsoft	B-Object
 claims	O
 ,	O
-windows	O
+windows	B-Object
 8	O
 is	O
 6	O
 times	O
 safer	B-Predicate
 than	O
-windows	O
+windows	B-Object
 and	O
 21	O
 times	O
 safer	B-Predicate
 than	O
-windows	O
+windows	B-Object
 xp	O
 from	O
 a	O
@@ -266,14 +266,14 @@ according	O
 to	O
 microsoft	O
 ,	O
-windows	B-Aspect
+windows	B-Object
 8	O
 is	O
 21	O
 times	O
 safer	B-Predicate
 than	O
-windows	O
+windows	B-Object
 xp	O
 ,	O
 and	O
@@ -281,12 +281,12 @@ and	O
 times	O
 safer	B-Predicate
 than	O
-windows	O
+windows	B-Object
 7	O
 ,	O
 from	O
 a	O
-malware	O
+malware	B-Aspect
 infection	I-Aspect
 perspective	O
 .	O
@@ -316,13 +316,13 @@ t	I-Predicate
 make	O
 windows	O
 8	O
-password	O
+password	B-Aspect
 safer	B-Predicate
 than	O
 the	O
 traditional	O
 text	O
-password	O
+password	B-Aspect
 in	O
 windows	O
 xp	O
@@ -344,7 +344,7 @@ mac	B-Object
 os	I-Object
 x	O
 and	O
-windows	O
+windows	B-Object
 8	O
 ,	O
 has	O
@@ -354,7 +354,7 @@ to	I-Aspect
 files	I-Aspect
 than	O
 in	O
-android	O
+android	B-Object
 ,	O
 and	O
 is	O
@@ -375,7 +375,7 @@ and	O
 enterprise	O
 editions	O
 of	O
-windows	O
+windows	B-Object
 7	O
 .	O
 
@@ -388,9 +388,9 @@ i	O
 ve	O
 seen	O
 ,	O
-windows	O
+windows	B-Object
 8	O
-requires	O
+requires	B-Aspect
 less	B-Predicate
 of	O
 the	O
@@ -399,12 +399,12 @@ than	O
 windows	O
 7	O
 (	O
-runs	O
+runs	B-Aspect
 faster	B-Predicate
 /	O
 leaner	B-Predicate
 than	O
-windows	O
+windows	B-Object
 7	O
 on	O
 the	O
@@ -414,38 +414,38 @@ hardware	O
 and	O
 windows	O
 7	O
-runs	O
+runs	B-Aspect
 as	B-Predicate
 good	I-Predicate
-as	O
+as	I-Predicate
 (	O
 or	O
 better	B-Predicate
 than	O
 )	O
-windows	O
+windows	B-Object
 xp	O
 .	O
 
 firstly	O
 ,	O
-windows	O
+windows	B-Object
 8	O
 runs	O
 faster	B-Predicate
 than	O
-windows	O
+windows	B-Object
 xp	B-Object
 absolutely	O
 .	O
 
-windows	O
+windows	B-Object
 8	O
 is	O
 faster	B-Predicate
 than	O
-windows	O
-xp	B-Object
+windows	B-Object
+xp	O
 or	O
 windows	O
 7	O
@@ -453,15 +453,15 @@ windows	O
 
 this	O
 makes	O
-windows	O
+windows	B-Object
 8	O
 sales	B-Aspect
 34	O
 %	O
 better	B-Predicate
 than	O
-windows	O
-vista	B-Object
+windows	B-Object
+vista	I-Object
 ,	O
 and	O
 about	O
@@ -469,13 +469,13 @@ about	O
 %	O
 higher	B-Predicate
 than	O
-windows	O
-xp	B-Object
+windows	B-Object
+xp	O
 .	O
 
 "	O
 but	O
-windows	O
+windows	B-Object
 xp	B-Object
 systems	O
 had	O
@@ -497,7 +497,7 @@ malware	B-Aspect
 infection	I-Aspect
 rate	I-Aspect
 for	O
-windows	O
+windows	B-Object
 xp	B-Object
 is	O
 already	O
@@ -506,8 +506,8 @@ six	O
 times	O
 higher	B-Predicate
 than	O
-windows	O
-8	B-Object
+windows	B-Object
+8	I-Object
 systems	O
 .	O
 
@@ -527,7 +527,7 @@ could	O
 find	O
 that	O
 a	O
-windows	O
+windows	B-Object
 8	O
 tablet	O
 with	O
@@ -556,8 +556,8 @@ is	O
 much	O
 better	B-Predicate
 at	O
-juggling	O
-work	O
+juggling	B-Aspect
+work	I-Aspect
 and	O
 play	O
 than	O
@@ -594,7 +594,7 @@ than	O
 windows	O
 7	O
 and	O
-windows	O
+windows	B-Object
 xp	O
 when	O
 using	O
@@ -644,7 +644,7 @@ might	O
 be	O
 a	O
 better	B-Predicate
-choice	O
+choice	B-Aspect
 than	O
 windows	O
 8	O
@@ -659,7 +659,7 @@ is	O
 little	O
 wonder	O
 that	O
-windows	O
+windows	B-Object
 xp	B-Object
 usage	B-Aspect
 continues	O
@@ -669,9 +669,9 @@ faster	B-Predicate
 than	O
 that	O
 of	O
-windows	O
-8	O
-.	O
+windows	B-Object
+8	I-Object
+.	I-Object
 x	O
 .	O
 
@@ -682,7 +682,7 @@ similar	B-Predicate
 in	O
 usability	B-Aspect
 to	O
-windows	O
+windows	B-Object
 xp	B-Object
 ,	O
 ensuring	O
@@ -699,7 +699,7 @@ smoother	B-Predicate
 than	O
 migrating	O
 to	O
-windows	O
+windows	B-Object
 8	O
 .	O
 
@@ -715,7 +715,7 @@ or	O
 windows	O
 7	O
 to	O
-linux	O
+linux	B-Object
 mint	O
 or	O
 ubuntu	B-Object
@@ -724,7 +724,7 @@ be	O
 much	O
 easier	B-Predicate
 than	O
-transitioning	B-Aspect
+transitioning	O
 to	O
 windows	O
 8	O
@@ -826,7 +826,7 @@ windows	O
 see	O
 a	O
 combined	O
-share	O
+share	B-Aspect
 of	O
 11	O
 .	O
@@ -834,7 +834,7 @@ of	O
 %	O
 
 windows	O
-8	O
+8	B-Object
 .	O
 x	O
 gains	O
@@ -844,7 +844,7 @@ at	O
 the	O
 expense	O
 of	O
-windows	O
+windows	B-Object
 xp	B-Object
 .	O
 
@@ -852,8 +852,8 @@ by	O
 the	O
 way	O
 ,	O
-windows	O
-xp	B-Object
+windows	B-Object
+xp	I-Object
 has	O
 80	O
 %	O
@@ -861,7 +861,7 @@ more	B-Predicate
 market	B-Aspect
 share	I-Aspect
 than	O
-windows	O
+windows	B-Object
 8	O
 .	O
 
@@ -924,10 +924,10 @@ north	B-Object
 carolina	I-Object
 all	O
 score	O
-lower	O
+lower	B-Predicate
 than	O
 the	O
-naep	O
+naep	B-Aspect
 average	O
 but	O
 still	O
@@ -949,7 +949,7 @@ and	O
 florida	B-Object
 all	O
 show	O
-obama	O
+obama	B-Aspect
 leads	B-Aspect
 that	O
 are	O
@@ -969,7 +969,7 @@ and	O
 nevada	B-Object
 show	O
 closer	B-Predicate
-races	O
+races	B-Aspect
 -	O
 gaps	O
 of	O
@@ -1004,7 +1004,7 @@ months	O
 with	O
 dr	O
 .	O
-dean	O
+dean	B-Object
 ,	O
 mr	O
 .	O
@@ -1034,14 +1034,14 @@ florida	B-Object
 joseph	O
 i	O
 .	O
-lieberman	B-Object
+lieberman	O
 of	O
 connecticut	B-Object
 ,	O
 john	O
 edwards	O
 of	O
-north	O
+north	B-Object
 carolina	I-Object
 ,	O
 representative	O
@@ -1050,7 +1050,7 @@ j	O
 .	O
 kucinich	O
 of	O
-ohio	O
+ohio	B-Object
 ,	O
 former	O
 senator	O
@@ -1058,7 +1058,7 @@ carol	O
 moseley	O
 braun	O
 of	O
-illinois	O
+illinois	B-Object
 and	O
 the	O
 rev	O
@@ -1114,7 +1114,7 @@ tv	B-Aspect
 ratings	B-Aspect
 for	O
 the	O
-missouri	B-Object
+missouri	O
 -	O
 south	O
 carolina	O
@@ -1125,7 +1125,7 @@ than	O
 there	O
 were	O
 in	O
-st	O
+st	B-Object
 .	O
 louis	I-Object
 which	O
@@ -1152,9 +1152,9 @@ lighter	B-Predicate
 skin	B-Aspect
 than	O
 georgia	B-Object
-blacks	B-Aspect
+blacks	O
 and	O
-test	O
+test	B-Aspect
 out	O
 higher	B-Predicate
 in	O
@@ -1272,7 +1272,7 @@ be	O
 the	O
 burden	B-Aspect
 of	O
-litigating	O
+litigating	B-Aspect
 in	O
 georgia	B-Object
 .	O
@@ -1340,7 +1340,7 @@ which	O
 offers	O
 a	O
 richer	B-Predicate
-film	B-Aspect
+film	O
 tax	I-Aspect
 credit	I-Aspect
 than	O
@@ -1352,8 +1352,8 @@ peaches	B-Aspect
 are	O
 better	B-Predicate
 than	O
-no	O
-peaches	B-Aspect
+no	B-Object
+peaches	I-Object
 but	O
 georgia	B-Object
 or	O
@@ -1391,8 +1391,8 @@ south	O
 georgia	B-Object
 .	O
 
-southern	B-Object
-california	I-Object
+southern	O
+california	B-Object
 finished	O
 at	O
 19	O
@@ -1421,7 +1421,7 @@ beat	O
 second	O
 -	O
 place	O
-duke	O
+duke	B-Object
 by	O
 21	O
 strokes	O
@@ -1498,7 +1498,7 @@ higher	B-Predicate
 proportion	B-Aspect
 of	O
 disabled	B-Aspect
-enrollees	O
+enrollees	I-Aspect
 than	O
 california	B-Object
 .	O
@@ -1549,7 +1549,7 @@ because	O
 their	O
 economies	B-Aspect
 have	O
-fared	B-Aspect
+fared	O
 better	B-Predicate
 than	O
 california	B-Object
@@ -1633,7 +1633,7 @@ and	O
 cost	B-Aspect
 than	O
 a	O
-california	O
+california	B-Object
 publicly	O
 funded	O
 one	O
@@ -1643,10 +1643,10 @@ it	O
 is	O
 much	O
 easier	B-Predicate
-to	O
-get	B-Aspect
-a	I-Aspect
-permit	B-Aspect
+to	I-Predicate
+get	I-Predicate
+a	I-Predicate
+permit	I-Aspect
 in	O
 georgia	B-Object
 ,	O
@@ -1752,7 +1752,7 @@ a	O
 previous	O
 report	O
 from	O
-georgia	O
+georgia	B-Object
 indicated	O
 a	O
 similar	B-Predicate
@@ -1828,7 +1828,7 @@ out	O
 of	O
 -	O
 state	O
-enrollment	O
+enrollment	B-Aspect
 in	O
 the	O
 university	O
@@ -2100,7 +2100,7 @@ because	O
 they	O
 remain	O
 better	B-Predicate
-places	O
+places	I-Predicate
 to	O
 live	B-Aspect
 than	O
@@ -2124,8 +2124,8 @@ become	O
 more	B-Predicate
 attractive	I-Predicate
 to	O
-talented	O
-workers	O
+talented	I-Predicate
+workers	I-Aspect
 than	O
 ,	O
 say	O
@@ -2218,13 +2218,13 @@ likelier	B-Predicate
 to	O
 have	O
 mitigating	B-Aspect
-qualities	I-Aspect
+qualities	O
 than	O
 the	O
-criminals	O
+criminals	B-Aspect
 in	O
-south	O
-carolina	B-Object
+south	B-Object
+carolina	I-Object
 .	O
 
 summer	O
@@ -2290,7 +2290,7 @@ north	B-Object
 carolina	I-Object
 ,	O
 foreclosures	B-Aspect
-move	O
+move	I-Aspect
 faster	B-Predicate
 than	O
 in	O
@@ -2300,14 +2300,14 @@ california	B-Object
 minnesota	O
 chose	O
 troy	B-Object
-williamson	O
+williamson	I-Object
 of	O
 south	O
-carolina	O
+carolina	B-Object
 ,	O
 a	O
 faster	B-Predicate
-wide	B-Aspect
+wide	O
 receiver	I-Aspect
 than	O
 the	O
@@ -2316,7 +2316,7 @@ rated	O
 but	O
 taller	B-Predicate
 mike	B-Object
-williams	O
+williams	I-Object
 of	O
 southern	O
 california	B-Object
@@ -2344,7 +2344,7 @@ also	O
 had	O
 much	O
 faster	B-Predicate
-increases	B-Aspect
+increases	O
 in	O
 the	O
 growth	O
@@ -2354,13 +2354,13 @@ state	O
 and	O
 local	O
 government	O
-spending	O
+spending	B-Aspect
 .	O
 
 caroline	O
 moakley	O
 (	O
-cary	O
+cary	B-Object
 ,	O
 n	O
 .	O
@@ -2371,7 +2371,7 @@ carolina	O
 state	O
 university	O
 at	O
-raleigh	O
+raleigh	B-Object
 )	O
 was	O
 only	O
@@ -2384,13 +2384,13 @@ than	O
 danielle	O
 haulman	O
 (	O
-davis	O
+davis	B-Object
 ,	O
 calif	O
 ./	O
 university	O
 of	O
-california	O
+california	B-Object
 -	O
 davis	O
 )	O
@@ -2460,7 +2460,7 @@ at	O
 .	O
 
 latino	O
-child	O
+child	B-Aspect
 poverty	I-Aspect
 is	O
 much	O
@@ -2645,12 +2645,12 @@ combine	O
 
 in	O
 north	O
-carolina	O
+carolina	I-Object
 ,	O
-charlotte	B-Object
+charlotte	O
 -	O
 led	O
-mecklenburg	O
+mecklenburg	B-Object
 county	O
 will	O
 gain	B-Aspect
@@ -2663,7 +2663,7 @@ than	O
 philadelphia	B-Object
 county	O
 in	O
-pennsylvania	O
+pennsylvania	B-Object
 .	O
 
 florida	B-Object
@@ -2685,7 +2685,7 @@ and	O
 greater	B-Predicate
 than	O
 the	O
-prize	B-Aspect
+prize	O
 of	O
 ohio	B-Object
 or	O
@@ -2883,7 +2883,7 @@ one	O
 would	O
 say	O
 their	O
-desktop	O
+desktop	B-Object
 /	O
 laptop	B-Object
 is	O
@@ -2898,8 +2898,8 @@ phone	B-Object
 the	O
 surface	O
 is	O
-more	O
-portable	O
+more	B-Predicate
+portable	I-Predicate
 than	O
 my	O
 laptop	B-Object
@@ -2974,9 +2974,9 @@ bigger	O
 ,	O
 making	O
 them	O
-easier	O
+easier	B-Predicate
 to	O
-handle	O
+handle	B-Aspect
 in	O
 the	O
 same	O
@@ -3041,7 +3041,7 @@ on	O
 the	O
 desktop	O
 /	O
-laptop	B-Object
+laptop	O
 /	O
 tablet	O
 i	O
@@ -3152,7 +3152,7 @@ reason	O
 may	O
 the	O
 signal	B-Aspect
-receiver	O
+receiver	I-Aspect
 of	O
 my	O
 phone	B-Object
@@ -3197,12 +3197,12 @@ so	O
 much	O
 easier	B-Predicate
 to	O
-see	B-Aspect
+see	O
 whether	O
 there	O
 '	O
 s	O
-wifi	B-Aspect
+wifi	O
 available	O
 with	O
 a	O
@@ -3244,7 +3244,7 @@ helluva	O
 lighter	B-Predicate
 to	O
 haul	B-Aspect
-around	O
+around	I-Aspect
 than	O
 my	O
 laptop	B-Object
@@ -3274,7 +3274,7 @@ lighter	B-Predicate
 than	O
 an	O
 external	O
-laptop	O
+laptop	B-Object
 hard	O
 disk	O
 case	O
@@ -3297,7 +3297,7 @@ laptop	B-Object
 .	O
 
 the	O
-larger	O
+larger	B-Predicate
 screen	B-Aspect
 makes	O
 it	O
@@ -3306,7 +3306,7 @@ more	B-Predicate
 enjoyable	I-Predicate
 to	O
 look	B-Aspect
-at	O
+at	I-Aspect
 than	O
 the	O
 screen	O
@@ -3324,7 +3324,7 @@ and	O
 easier	B-Predicate
 to	O
 carry	B-Aspect
-around	I-Aspect
+around	O
 than	O
 a	O
 laptop	B-Object
@@ -3384,7 +3384,7 @@ great	O
 on	O
 the	O
 cell	B-Object
-phone	B-Object
+phone	I-Object
 ,	O
 and	O
 it	O
@@ -3395,7 +3395,7 @@ lot	O
 easier	B-Predicate
 to	O
 carry	B-Aspect
-around	I-Aspect
+around	O
 than	O
 a	O
 laptop	O
@@ -3411,7 +3411,7 @@ is	O
 easier	B-Predicate
 to	O
 carry	B-Aspect
-around	I-Aspect
+around	O
 than	O
 a	O
 laptop	B-Object
@@ -3472,7 +3472,7 @@ read	B-Aspect
 email	O
 on	O
 my	O
-phone	O
+phone	B-Object
 rather	O
 than	O
 checking	O
@@ -3573,7 +3573,7 @@ can	O
 check	B-Aspect
 my	O
 personal	O
-email	B-Aspect
+email	O
 far	O
 quicker	B-Predicate
 on	O
@@ -3601,7 +3601,7 @@ to	O
 steal	B-Aspect
 than	O
 a	O
-desktop	O
+desktop	B-Object
 ,	O
 and	O
 somewhat	O
@@ -3688,7 +3688,7 @@ are	O
 better	B-Predicate
 than	O
 my	O
-laptop	O
+laptop	B-Object
 ,	O
 i	O
 am	O
@@ -3701,24 +3701,24 @@ as	B-Predicate
 fast	I-Predicate
 as	I-Predicate
 the	O
-laptop	O
+laptop	B-Object
 ,	O
 or	O
 even	O
 a	O
 little	O
-slower	O
+slower	B-Predicate
 .	O
 
 wifi	B-Aspect
 on	O
 this	O
-phone	B-Object
+phone	O
 is	O
 faster	B-Predicate
 than	O
 my	O
-laptop	O
+laptop	B-Object
 and	O
 thats	O
 with	O
@@ -3739,7 +3739,7 @@ the	O
 web	O
 and	O
 an	O
-akai	O
+akai	B-Object
 mpc	B-Object
 that	O
 ll	O
@@ -3758,8 +3758,8 @@ you	O
 can	O
 use	O
 your	O
-mobile	B-Object
-phone	I-Object
+mobile	O
+phone	B-Object
 or	O
 3g	O
 ipad	O
@@ -3831,9 +3831,9 @@ fast	O
 it	O
 '	O
 s	O
-as	O
-fast	O
-as	O
+as	B-Predicate
+fast	I-Predicate
+as	I-Predicate
 a	O
 laptop	O
 !!	O
@@ -3917,7 +3917,7 @@ interface	O
 does	O
 make	O
 it	O
-easier	O
+easier	B-Predicate
 to	O
 navigate	B-Aspect
 around	O
@@ -4189,7 +4189,7 @@ be	O
 done	O
 with	O
 a	O
-laptop	O
+laptop	B-Object
 .	O
 
 we	O
@@ -4203,9 +4203,9 @@ easier	B-Predicate
 to	O
 use	B-Aspect
 than	O
-android	O
+android	B-Object
 based	O
-smartphones	O
+smartphones	B-Object
 and	O
 we	O
 are	O
@@ -4268,8 +4268,8 @@ is	O
 easier	B-Predicate
 to	O
 use	B-Aspect
-data	O
-faster	O
+data	I-Aspect
+faster	B-Predicate
 while	O
 connecting	O
 a	O
@@ -4389,7 +4389,7 @@ be	O
 lost	O
 without	O
 my	O
-iphone	O
+iphone	B-Object
 -	O
 and	O
 ipad	B-Object
@@ -4439,17 +4439,17 @@ carry	B-Aspect
 around	I-Aspect
 than	O
 a	O
-laptop	O
+laptop	B-Object
 or	O
 portable	O
-dvd	B-Object
+dvd	O
 player	O
 .	O
 
 imagine	O
 handing	O
 your	O
-iphone	O
+iphone	B-Object
 over	O
 to	O
 a	O
@@ -4497,7 +4497,7 @@ uses	O
 their	O
 iphone	B-Object
 /	O
-ipod	O
+ipod	B-Object
 for	O
 reading	O
 says	O
@@ -4508,7 +4508,7 @@ much	O
 easier	B-Predicate
 on	O
 the	O
-eyes	O
+eyes	B-Aspect
 than	O
 a	O
 laptop	B-Object
@@ -4563,7 +4563,7 @@ a	O
 4	O
 -	O
 inch	O
-display	B-Aspect
+display	O
 ,	O
 the	O
 sgs3	B-Object
@@ -4600,7 +4600,7 @@ a	O
 4	O
 -	O
 inch	O
-iphone	O
+iphone	B-Object
 5	O
 will	O
 only	O
@@ -4642,7 +4642,7 @@ in	O
 comparadon	O
 to	O
 my	O
-laptop	O
+laptop	B-Object
 and	O
 my	O
 ps3	O
@@ -4741,7 +4741,7 @@ the	O
 surface	O
 and	O
 new	O
-ipad	B-Object
+ipad	O
 plug	O
 are	O
 far	O
@@ -4752,7 +4752,7 @@ dark	O
 than	O
 the	O
 damn	O
-micro	B-Object
+micro	O
 -	O
 usb	B-Object
 plug	O
@@ -4830,7 +4830,7 @@ ipad	B-Object
 have	O
 high	O
 resolution	O
-displays	O
+displays	B-Aspect
 with	O
 a	O
 much	O
@@ -4973,7 +4973,7 @@ core	O
 is	O
 bonded	O
 to	O
-steel	O
+steel	B-Object
 ply	O
 to	O
 prevent	O
@@ -5006,9 +5006,9 @@ stronger	B-Predicate
 than	O
 steel	B-Object
 in	O
-static	O
-bending	O
-strength	O
+static	B-Aspect
+bending	I-Aspect
+strength	I-Aspect
 .	O
 
 hardwood	O
@@ -5040,7 +5040,7 @@ than	O
 steel	B-Object
 in	O
 static	O
-bending	I-Aspect
+bending	B-Aspect
 strength	I-Aspect
 due	O
 to	O
@@ -5065,7 +5065,7 @@ ultimately	O
 timber	B-Object
 or	O
 structural	O
-plywood	B-Object
+plywood	O
 ramps	O
 end	O
 up	O
@@ -5206,7 +5206,7 @@ using	O
 /	O
 2	O
 "	O
-plywood	B-Object
+plywood	O
 .	O
 
 the	O
@@ -5227,14 +5227,14 @@ a	O
 "	O
 real	O
 "	O
-lumber	O
+lumber	B-Object
 yard	O
 ,	O
 but	O
-not	O
-half	O
+not	B-Predicate
+half	I-Predicate
 the	O
-quality	O
+quality	B-Aspect
 .	O
 
 i	O
@@ -5247,7 +5247,7 @@ is	O
 much	O
 better	B-Predicate
 to	O
-use	O
+use	B-Aspect
 because	O
 it	O
 is	O
@@ -5306,8 +5306,8 @@ and	O
 often	O
 stronger	B-Predicate
 than	O
-solid	B-Object
-wood	I-Object
+solid	O
+wood	B-Object
 ,	O
 easy	O
 to	O
@@ -5457,7 +5457,7 @@ and	O
 then	O
 transport	O
 much	O
-lighter	O
+lighter	B-Predicate
 dried	O
 wood	B-Object
 for	O
@@ -5511,7 +5511,7 @@ milled	O
 lumber	B-Object
 and	O
 can	O
-compete	O
+compete	B-Predicate
 with	O
 concrete	B-Object
 and	O
@@ -5545,7 +5545,7 @@ together	O
 thin	O
 layers	O
 of	O
-wood	B-Object
+wood	O
 to	O
 create	O
 a	O
@@ -5556,9 +5556,9 @@ much	O
 stronger	B-Predicate
 and	O
 more	B-Predicate
-fire	B-Aspect
--	I-Aspect
-resistant	I-Aspect
+fire	I-Predicate
+-	I-Predicate
+resistant	I-Predicate
 than	O
 lumber	B-Object
 .	O
@@ -5595,12 +5595,12 @@ the	O
 increase	B-Aspect
 in	O
 standing	O
-timber	O
+timber	B-Object
 greater	B-Predicate
 than	O
 that	O
 of	O
-felled	B-Object
+felled	O
 lumber	O
 .	O
 
@@ -5617,7 +5617,7 @@ is	O
 more	B-Predicate
 uniform	I-Predicate
 than	O
-solid	B-Object
+solid	O
 timber	B-Object
 ;	O
 it	O
@@ -5638,7 +5638,7 @@ is	O
 created	O
 using	O
 laminated	B-Object
-veneer	O
+veneer	I-Object
 lumber	O
 -	O
 not	O
@@ -5662,8 +5662,8 @@ adhesives	O
 but	O
 it	O
 does	O
-stay	O
-beautiful	O
+stay	B-Aspect
+beautiful	I-Aspect
 longer	B-Predicate
 than	O
 conventional	O
@@ -5690,7 +5690,7 @@ laminated	O
 timber	B-Object
 ,	O
 or	O
-clt	B-Object
+clt	O
 ,	O
 which	O
 is	O
@@ -5726,7 +5726,7 @@ timber	B-Object
 sleepers	O
 have	O
 good	O
-elasticity	B-Aspect
+elasticity	O
 and	O
 are	O
 lighter	B-Predicate
@@ -5819,8 +5819,8 @@ lighter	B-Predicate
 and	O
 more	B-Predicate
 environmentally	I-Predicate
--	O
-friendly	O
+-	I-Predicate
+friendly	I-Predicate
 building	O
 material	O
 that	O
@@ -5868,7 +5868,7 @@ less	B-Predicate
 specialized	O
 labor	B-Aspect
 to	O
-build	O
+build	B-Aspect
 .	O
 
 new	O
@@ -5903,7 +5903,7 @@ concrete	B-Object
 
 once	O
 your	O
-concrete	B-Object
+concrete	O
 foundation	O
 is	O
 down	O
@@ -5953,7 +5953,7 @@ and	O
 reliable	O
 making	O
 timber	B-Object
-construction	O
+construction	B-Aspect
 simpler	B-Predicate
 and	O
 safer	B-Predicate
@@ -6074,7 +6074,7 @@ concrete	B-Object
 ,	O
 plate	O
 -	O
-glass	O
+glass	I-Object
 and	O
 box	O
 girders	O
@@ -6145,13 +6145,13 @@ feel	O
 bigger	B-Predicate
 .	O
 
-massive	B-Object
-timber	I-Object
+massive	O
+timber	B-Object
 is	O
 heavier	B-Predicate
 than	O
-light	B-Object
-timber	I-Object
+light	O
+timber	B-Object
 systems	O
 ,	O
 which	O
@@ -6216,7 +6216,7 @@ tiles	O
 
 although	O
 a	O
-hollow	O
+hollow	B-Object
 -	I-Object
 core	I-Object
 slab	O
@@ -6241,7 +6241,7 @@ the	O
 typical	O
 timber	B-Object
 and	O
-plasterboard	B-Object
+plasterboard	O
 installation	O
 .	O
 
@@ -6275,7 +6275,7 @@ concrete	B-Object
 .	O
 
 great	O
-strength	B-Aspect
+strength	O
 ,	O
 stiffness	O
 and	O
@@ -6358,7 +6358,7 @@ using	O
 the	O
 truck	B-Object
 or	O
-van	O
+van	B-Object
 would	O
 be	O
 alot	O
@@ -6388,7 +6388,7 @@ much	O
 faster	B-Predicate
 than	O
 burger	B-Object
-bus	I-Object
+bus	O
 .	O
 
 in	O
@@ -6442,7 +6442,7 @@ trailer	O
 behind	O
 our	O
 f450	O
-truck	O
+truck	B-Object
 which	O
 is	O
 unexpected	O
@@ -6478,8 +6478,8 @@ i	O
 would	O
 think	O
 a	O
-school	O
-bus	B-Object
+school	B-Object
+bus	I-Object
 based	O
 platform	O
 would	O
@@ -6504,8 +6504,8 @@ since	O
 the	O
 engine	B-Aspect
 in	O
-school	O
-buses	B-Object
+school	B-Object
+buses	I-Object
 seem	O
 to	O
 be	O
@@ -6516,8 +6516,8 @@ in	O
 a	O
 full	O
 fledged	O
-semi	O
-truck	O
+semi	B-Object
+truck	I-Object
 .	O
 
 it	O
@@ -6658,7 +6658,7 @@ safer	B-Predicate
 than	O
 traveling	O
 by	O
-car	O
+car	B-Object
 or	O
 truck	O
 .	O
@@ -6769,7 +6769,7 @@ nice	O
 story	O
 the	O
 bus	B-Object
-ride	O
+ride	B-Aspect
 had	O
 to	O
 be	O
@@ -6796,7 +6796,7 @@ happens	O
 now	O
 ,	O
 where	O
-traveling	O
+traveling	B-Aspect
 is	O
 a	O
 lot	O
@@ -6845,7 +6845,7 @@ p	O
 .	O
 wu	O
 ,	O
-transporting	B-Aspect
+transporting	O
 grain	O
 by	O
 pipeline	B-Object
@@ -6855,7 +6855,7 @@ than	O
 by	O
 truck	B-Object
 or	O
-train	B-Object
+train	O
 as	O
 long	O
 as	O
@@ -6896,7 +6896,7 @@ be	O
 held	O
 a	O
 greater	B-Predicate
-standard	B-Aspect
+standard	O
 of	O
 safety	B-Aspect
 /	O
@@ -6913,7 +6913,7 @@ could	O
 assume	O
 that	O
 a	O
-monster	O
+monster	B-Object
 truck	I-Object
 is	O
 faster	B-Predicate
@@ -6924,7 +6924,7 @@ porsche	B-Object
 or	O
 a	O
 school	O
-bus	O
+bus	B-Object
 is	O
 capable	O
 of	O
@@ -6941,7 +6941,7 @@ type	O
 with	O
 a	O
 more	B-Predicate
-relaxing	O
+relaxing	I-Predicate
 and	O
 versatile	O
 interior	B-Aspect
@@ -6973,7 +6973,7 @@ more	O
 like	O
 a	O
 large	O
-car	O
+car	B-Object
 than	O
 a	O
 bus	O
@@ -6984,7 +6984,7 @@ lateral	O
 displacement	I-Aspect
 criteria	O
 is	O
-less	O
+less	B-Predicate
 for	O
 a	O
 bus	B-Object
@@ -7101,18 +7101,18 @@ heavy	O
 .	O
 
 missed	O
-turns	I-Aspect
+turns	O
 in	O
 a	O
 truck	B-Object
 that	O
 '	O
 s	O
-as	O
-long	O
+as	B-Predicate
+long	I-Predicate
 and	O
-wide	O
-as	O
+wide	I-Predicate
+as	I-Predicate
 a	O
 city	O
 bus	B-Object
@@ -7164,7 +7164,7 @@ deal	O
 by	O
 agreeing	O
 to	O
-outfit	O
+outfit	B-Aspect
 all	O
 ku	O
 sports	O
@@ -7198,7 +7198,7 @@ a	O
 15	O
 per	O
 cent	O
-sales	O
+sales	B-Aspect
 increase	O
 in	O
 china	O
@@ -7527,7 +7527,7 @@ they	O
 '	O
 re	O
 more	O
-flexible	B-Aspect
+flexible	O
 than	O
 some	O
 .	O
@@ -7537,7 +7537,7 @@ nike	B-Object
 shoes	O
 are	O
 currently	O
-tied	O
+tied	B-Predicate
 with	O
 or	O
 slightly	O
@@ -7701,7 +7701,7 @@ lululemon	B-Object
 
 although	O
 nike	B-Object
-scored	B-Aspect
+scored	O
 higher	B-Predicate
 than	O
 rival	O
@@ -7757,12 +7757,12 @@ adidas	B-Object
 despite	O
 the	O
 latter	O
-spending	B-Aspect
+spending	O
 more	O
 than	O
 three	O
 times	O
-as	I-Predicate
+as	B-Predicate
 much	I-Predicate
 on	O
 advertising	B-Aspect
@@ -7800,7 +7800,7 @@ boost	O
 for	O
 sale	O
 sensibility	O
-adidas	O
+adidas	B-Object
 yeezy	O
 boost	O
 750	O
@@ -7905,7 +7905,7 @@ adidas	B-Object
 notre	O
 dame	O
 has	O
-contracts	B-Aspect
+contracts	O
 with	O
 adidas	B-Object
 and	O
@@ -8002,7 +8002,7 @@ and	O
 income	B-Aspect
 continue	O
 to	O
-grow	O
+grow	B-Aspect
 at	O
 a	O
 faster	B-Predicate
@@ -8025,7 +8025,7 @@ do	O
 it	O
 in	O
 the	O
-design	B-Aspect
+design	O
 ,	O
 but	O
 nike	B-Object
@@ -8056,7 +8056,7 @@ nike	B-Object
 stuff	O
 because	O
 nike	B-Object
-shoes	B-Aspect
+shoes	O
 fit	B-Aspect
 my	O
 feet	O
@@ -8088,7 +8088,7 @@ nike	B-Object
 deal	O
 would	O
 be	O
-worth	O
+worth	B-Aspect
 less	B-Predicate
 but	O
 they	O
@@ -8178,7 +8178,7 @@ nike	B-Object
 '	O
 s	O
 compression	B-Aspect
-gear	I-Aspect
+gear	O
 is	O
 far	O
 superior	B-Predicate
@@ -8287,7 +8287,7 @@ wallet	O
 that	O
 holds	O
 that	O
-credit	B-Object
+credit	O
 card	O
 .	O
 
@@ -8298,7 +8298,7 @@ novelty	O
 factor	O
 ,	O
 mobile	B-Object
-payments	I-Object
+payments	B-Aspect
 aren	B-Predicate
 '	I-Predicate
 t	I-Predicate
@@ -8324,7 +8324,7 @@ in	O
 theory	O
 ,	O
 mobile	O
-payments	O
+payments	B-Aspect
 should	O
 be	O
 faster	B-Predicate
@@ -8367,7 +8367,7 @@ would	O
 a	O
 wallet	B-Object
 or	O
-check	B-Object
+check	O
 book	O
 .	O
 
@@ -8387,7 +8387,7 @@ phone	O
 but	O
 actually	O
 the	O
-mobile	O
+mobile	B-Object
 phone	I-Object
 is	O
 going	O
@@ -8399,7 +8399,7 @@ place	O
 to	O
 have	O
 your	O
-cards	O
+cards	B-Aspect
 than	O
 your	O
 existing	O
@@ -8417,7 +8417,7 @@ highly	O
 encrypted	O
 ,	O
 mobile	B-Object
-commerce	I-Object
+commerce	O
 may	O
 be	O
 safer	B-Predicate
@@ -8469,7 +8469,7 @@ information	O
 stored	O
 on	O
 the	O
-mobile	B-Object
+mobile	O
 phone	B-Object
 ,	O
 which	O
@@ -8499,7 +8499,7 @@ they	O
 are	O
 without	O
 their	O
-mobile	B-Object
+mobile	O
 phone	B-Object
 quicker	B-Predicate
 than	O
@@ -8558,7 +8558,7 @@ can	O
 pull	O
 off	O
 mobile	O
-payments	B-Aspect
+payments	O
 ,	O
 and	O
 if	O
@@ -8627,7 +8627,7 @@ person	O
 '	O
 s	O
 mobile	B-Object
-phone	O
+phone	I-Object
 is	O
 more	B-Predicate
 intrusive	I-Predicate

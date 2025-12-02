@@ -17,7 +17,7 @@ docker run \
   --name ${CONTAINER_NAME} \
   --rm \
   --init \
-  --gpus "device=4" \
+  --gpus "device=2" \
   -v "${CURRENT_DIR}:/app" \
   -p 8883:8883 \
   ${DOCKER_NAME} bash -c "jupyter notebook --allow-root --ip='0.0.0.0' --port=8883 --NotebookApp.token='' --NotebookApp.password=''"

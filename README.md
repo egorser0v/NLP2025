@@ -9,7 +9,7 @@ Below is the list of assignments available in this repository:
 - **[Assignment 1: Word Sense Induction](./1/)**
   - Located in: `./1/`
   
-- **[Assignment 2](./2/)**
+- **[Assignment 2: Semantic Role Labelling](./2/)**
   - Located in: `./2/`
 
 - **[Assignment 3](./3/)**
