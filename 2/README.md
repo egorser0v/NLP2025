@@ -1,8 +1,8 @@
 # Assignment 2: Semantic Role Labelling
 
 ## Project Structure
-*   `2_serov.ipynb`: The main Jupyter Notebook containing the full pipeline (Data Loading, Preprocessing, Training Bi-LSTM/RoBERTa/DeBERTa, Ensembling, Evaluation, Submission).
-*   `plots/`: Directory containing generated charts, specifically `all_models_loss.png` comparing training convergence.
+*   `2_serov.ipynb`: The main Jupyter Notebook containing the full pipeline (Data Loading, Preprocessing, Training Bi-LSTM/RoBERTa/DeBERTa, Optimization, Evaluation, Submission).
+*   `plots/`: Directory containing generated charts, specifically `all_models_loss.png` and `final_comparison_grandmaster.png`.
 *   `tables/`: Directory containing metric comparison CSVs (`final_leaderboard.csv`).
 *   `submissions/`: Directory containing `.zip` files for CodaLab submission (Dev/Test results).
 *   `models/`: Directory where model checkpoints are saved (excluded from version control).
@@ -52,7 +52,7 @@ The task is formulated as a **Sequence Labeling** problem (Token Classification)
 *   **Format:** CoNLL-style (`Word \t Tag`).
 *   **Splitting:**
     *   For single models: **Train (90%)** / **Validation (10%)**.
-    *   For Ensemble: **5-Fold Cross-Validation** (rotating 80/20 splits).
+    *   For Ensembles: **K-Fold Cross-Validation** (5 or 10 folds).
 *   **Tokenization:** Used `AutoTokenizer` with `add_prefix_space=True` to handle pre-tokenized inputs correctly. Sub-word tokens were aligned with labels (only the first sub-token retains the label; others are ignored via `-100`).
 
 ### 2. Baseline Model (Bi-LSTM)
@@ -65,30 +65,38 @@ A robust Transformer model optimized for context.
 *   **Model:** `roberta-large`.
 *   **Performance:** Significantly outperformed the LSTM but struggled slightly with the relative positioning of predicates and arguments compared to newer architectures.
 
-### 4. SOTA Method (DeBERTa-V3 + Ensemble)
-To achieve maximum performance on the Test set, I utilized DeBERTa-V3 and an ensembling strategy.
+### 4. SOTA Method (DeBERTa-V3 + 5-Fold Ensemble)
+To achieve maximum performance on the Test set, I utilized DeBERTa-V3.
 *   **Model:** `microsoft/deberta-v3-large`.
 *   **Why DeBERTa:** It utilizes **Disentangled Attention** and **Relative Position Embeddings**, which are crucial for Semantic Role Labeling where the relationship/distance between the predicate and the object is defining.
-*   **Ensemble Strategy:** I trained 5 separate DeBERTa models using K-Fold Cross-Validation. During inference, the logits (prediction scores) from all 5 models are averaged. This "smoothing" effect reduces variance and eliminates errors caused by data noise in specific splits.
+*   **Ensemble Strategy:** Trained 5 separate models. Logits were averaged to reduce variance.
+
+### 5. Final Grandmaster Strategy (10-Fold + LLRD + Logic Repair)
+To reach the top of the leaderboard (Rank #2), I added three advanced optimizations to the DeBERTa pipeline:
+*   **10-Fold CV:** Increased folds from 5 to 10 to maximize data coverage.
+*   **Layer-wise Learning Rate Decay (LLRD):** The bottom layers (embeddings) were trained with a very low learning rate to preserve pre-trained knowledge, while top layers trained faster. This prevented "catastrophic forgetting."
+*   **Logic Repair (Post-Processing):** A custom script fixes invalid tag sequences (e.g., ensuring an `I-Object` is always preceded by a `B-Object`).
 
 ---
 
 ## Results
 
-The table below summarizes the performance comparison. The **DeBERTa 5-Fold Ensemble** achieved the highest generalization performance on the blind Test set.
+The table below summarizes the performance comparison. The **Optimized DeBERTa (10-Fold)** strategy achieved the best generalization.
 
 | Model | Val F1 (Best) | Val Accuracy | Dev F1 | Test F1 |
 | :--- | :--- | :--- | :--- | :--- |
 | **Baseline (Bi-LSTM)** | 0.8090 | 0.9229 | - | - |
-| **RoBERTa-Large** | 0.8836 | 0.9555 | **0.7396** | 0.8609 |
+| **RoBERTa-Large** | 0.8836 | 0.9555 | 0.7396 | 0.8609 |
 | **DeBERTa-V3-Large** | 0.8873 | **0.9587** | 0.7180 | 0.8744 |
-| **DeBERTa (5-Fold Ensemble)** | **0.8897** | 0.9582 | 0.7297 | **0.8788** |
+| **DeBERTa (5-Fold Ensemble)** | **0.8897** | 0.9582 | 0.7297 | 0.8788 |
+| **DeBERTa (10-Fold + LLRD)** | 0.8761 | 0.9524 | **0.7423** | **0.8802** |
 
 ### Analysis
-*   **Generalization:** While RoBERTa performed anomalously well on the small Dev set, the **Ensemble** proved superior on the larger, more representative Test set (+1.8% over RoBERTa).
-*   **Stability:** The Ensemble method effectively mitigated the variance seen in single-model training runs.
+*   **Generalization:** While RoBERTa performed anomalously well on the small Dev set, the **Grandmaster Ensemble** proved superior on the larger, more representative Test set (+1.9% over RoBERTa).
+*   **Optimization:** The combination of LLRD and Logic Repair squeezed out the final 0.2% needed to reach 0.88+ F1, fixing syntax errors that raw models often make.
+*   **Stability:** The 10-Fold approach ensured that the model didn't overfit to any specific subset of the training data.
 
 ### Visualization
 Training logs and comparisons are saved in the `plots/` directory:
 *   `plots/all_models_loss.png`: Visual comparison of training loss convergence between Bi-LSTM, RoBERTa, and DeBERTa.
-*   `plots/final_comparison_with_ensemble.png`: Bar chart comparing final F1 scores across all approaches.
+*   `plots/final_comparison_grandmaster.png`: Bar chart comparing final F1 scores across all approaches.

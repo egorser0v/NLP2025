@@ -15,8 +15,8 @@ chances	O
 to	O
 become	O
 a	O
-laptop	B-Aspect
-replacement	I-Aspect
+laptop	O
+replacement	B-Aspect
 earlier	B-Predicate
 than	O
 ios	B-Object
@@ -169,7 +169,7 @@ android	B-Object
 and	O
 made	O
 even	O
-simpler	O
+simpler	B-Predicate
 in	O
 ios	O
 7	O
@@ -190,8 +190,8 @@ not	B-Predicate
 inferior	I-Predicate
 to	O
 ios	B-Object
-any	B-Predicate
-longer	I-Predicate
+any	O
+longer	O
 ,	O
 and	O
 they	O
@@ -287,8 +287,8 @@ too	O
 bad	O
 android	B-Object
 has	O
-been	B-Aspect
-around	I-Aspect
+been	O
+around	B-Aspect
 longer	B-Predicate
 than	O
 ios	B-Object
@@ -338,7 +338,7 @@ smarter	B-Predicate
 than	O
 ios	B-Object
 and	O
-ios	O
+ios	B-Object
 users	O
 .	O
 
@@ -358,7 +358,7 @@ to	O
 write	B-Aspect
 good	O
 ios	B-Object
-apps	B-Aspect
+apps	O
 than	O
 good	O
 android	B-Object
@@ -371,19 +371,19 @@ is	O
 getting	O
 smoother	B-Predicate
 and	O
-simpler	O
+simpler	B-Predicate
 ,	O
 but	O
 still	O
 has	O
 a	O
-geekier	B-Predicate
+geekier	B-Aspect
 feel	B-Aspect
 than	O
-apple	O
+apple	B-Object
 '	O
 s	O
-ios	B-Object
+ios	O
 operating	O
 system	O
 .	O
@@ -394,19 +394,19 @@ believe	O
 google	B-Object
 '	O
 s	O
-android	B-Object
+android	B-Aspect
 platform	O
 has	O
 a	O
 better	B-Predicate
 long	O
--	I-Aspect
-term	I-Aspect
+-	O
+term	B-Aspect
 outlook	B-Aspect
 ,	O
 better	B-Predicate
-technological	O
-capabilities	B-Aspect
+technological	B-Aspect
+capabilities	I-Aspect
 ,	O
 and	O
 greater	B-Predicate
@@ -415,7 +415,7 @@ than	O
 apple	B-Object
 '	O
 s	O
-ios	B-Object
+ios	O
 platform	O
 .	O
 
@@ -433,17 +433,17 @@ somewhat	O
 safer	B-Predicate
 choice	O
 than	O
-apple	O
+apple	B-Object
 '	O
 s	O
-ios	B-Object
+ios	O
 in	O
 terms	O
 of	O
 security	B-Aspect
 and	O
 privacy	B-Aspect
-protection	I-Aspect
+protection	O
 ,	O
 none	O
 of	O
@@ -457,7 +457,7 @@ secure	O
 .	O
 
 ios	B-Object
-users	O
+users	B-Aspect
 read	B-Aspect
 slower	B-Predicate
 than	O
@@ -465,7 +465,7 @@ android	B-Object
 ,	O
 and	O
 for	O
-shorter	O
+shorter	B-Predicate
 periods	O
 of	O
 time	O
@@ -504,13 +504,13 @@ this	O
 subforum	O
 comment	O
 that	O
-android	O
+android	B-Object
 keyboards	B-Aspect
 ,	O
 and	O
 in	O
 particular	O
-swiftkey	B-Object
+swiftkey	O
 ,	O
 are	O
 superior	B-Predicate
@@ -540,7 +540,7 @@ reasons	O
 consumers	O
 of	O
 any	O
-android	O
+android	B-Object
 device	O
 do	O
 things	O
@@ -599,7 +599,7 @@ only	O
 better	B-Predicate
 than	O
 android	B-Object
-apps	B-Aspect
+apps	O
 today	O
 ,	O
 they	O
@@ -610,7 +610,7 @@ better	B-Predicate
 faster	B-Predicate
 than	O
 android	B-Object
-apps	B-Aspect
+apps	O
 because	O
 apple	O
 is	O
@@ -717,9 +717,9 @@ easier	B-Predicate
 ,	O
 better	B-Predicate
 ,	O
-innovative	B-Predicate
+innovative	O
 ,	O
-developing	B-Aspect
+developing	O
 than	O
 ios	B-Object
 .	O
@@ -776,9 +776,9 @@ kadajawi	O
 :	O
 technically	O
 ,	O
-qt	B-Aspect
+qt	O
 for	O
-ios	O
+ios	B-Object
 is	O
 not	O
 a	O
@@ -820,22 +820,22 @@ better	B-Predicate
 ,	O
 than	O
 android	B-Object
-apps	B-Aspect
+apps	O
 .	O
 
 ios	B-Object
 can	O
-run	O
+run	B-Aspect
 a	O
 lot	O
 smoother	B-Predicate
 and	O
-apps	B-Aspect
+apps	O
 run	O
 faster	B-Predicate
 on	O
 lesser	O
-hardware	B-Aspect
+hardware	O
 than	O
 a	O
 beefed	O
@@ -846,7 +846,7 @@ device	O
 
 the	O
 ios	B-Object
-ecosystem	B-Aspect
+ecosystem	O
 is	O
 a	O
 lot	O
@@ -869,8 +869,8 @@ android	B-Object
 
 there	O
 are	O
-more	O
-apps	O
+more	B-Predicate
+apps	B-Aspect
 on	O
 ios	B-Object
 ,	O
@@ -987,8 +987,8 @@ apps	B-Aspect
 are	O
 nicer	B-Predicate
 ...	O
-app	B-Aspect
-store	I-Aspect
+app	O
+store	O
 is	O
 bigger	B-Predicate
 ...	O
@@ -998,11 +998,11 @@ also	O
 agree	O
 android	B-Object
 is	O
-catching	B-Aspect
-up	I-Aspect
-faster	B-Predicate
+catching	O
+up	O
+faster	O
 than	O
-apple	B-Object
+apple	O
 imagined	O
 !	O
 
@@ -1062,7 +1062,7 @@ purchases	O
 ,	O
 ios	B-Object
 often	O
-performs	O
+performs	B-Aspect
 better	B-Predicate
 than	O
 android	B-Object
@@ -1107,7 +1107,7 @@ its	O
 because	O
 ios	B-Object
 and	O
-windows	O
+windows	B-Object
 8	O
 have	O
 a	O
@@ -1149,10 +1149,10 @@ the	O
 ios	B-Object
 4	O
 is	O
-more	O
+more	B-Predicate
 mature	I-Predicate
 ,	O
-solid	B-Predicate
+solid	O
 ,	O
 smoother	B-Predicate
 and	O
@@ -1213,7 +1213,7 @@ sheryl	O
 sandberg	O
 said	O
 that	O
-android	B-Object
+android	O
 ,	O
 google	B-Object
 '	O
@@ -1251,7 +1251,7 @@ the	O
 reporting	B-Aspect
 for	O
 android	B-Object
-apps	B-Aspect
+apps	O
 is	O
 much	O
 richer	B-Predicate
@@ -1285,7 +1285,7 @@ that	O
 the	O
 average	O
 ios	B-Object
-user	O
+user	B-Aspect
 is	O
 richer	B-Predicate
 than	O
@@ -1400,7 +1400,7 @@ devices	O
 .	O
 
 android	B-Object
-development	B-Aspect
+development	O
 is	O
 easier	B-Predicate
 to	O
@@ -1420,7 +1420,7 @@ end	O
 result	O
 of	O
 the	O
-apps	B-Aspect
+apps	O
 is	O
 by	O
 far	O
@@ -1447,7 +1447,7 @@ the	O
 various	O
 flavors	O
 of	O
-android	O
+android	B-Object
 os	O
 with	O
 mfr	O
@@ -1513,7 +1513,7 @@ reason	O
 why	O
 ios	B-Object
 often	O
-looks	B-Aspect
+looks	O
 smoother	B-Predicate
 than	O
 android	B-Object
@@ -1553,9 +1553,9 @@ inferior	B-Predicate
 to	O
 ios	B-Object
 and	O
-apple	B-Object
+apple	O
 and	O
-iphones	B-Object
+iphones	O
 and	O
 you	O
 can	O
@@ -1590,15 +1590,15 @@ would	O
 end	O
 up	O
 beating	O
-ios	O
+ios	B-Object
 )	O
 because	O
 there	O
 were	O
-more	O
-iphones	B-Object
+more	B-Predicate
+iphones	O
 being	O
-sold	O
+sold	B-Aspect
 than	O
 android	B-Object
 devices	O
@@ -1741,13 +1741,13 @@ customization	B-Aspect
 and	O
 freedom	B-Aspect
 is	O
-better	B-Predicate
+better	O
 on	O
 android	B-Object
 .	O
 
 for	O
-managing	B-Aspect
+managing	O
 devices	O
 in	O
 the	O
@@ -1791,7 +1791,7 @@ android	B-Object
 after	O
 praising	O
 the	O
-android	B-Object
+android	O
 -	O
 equipped	O
 iphone	O
@@ -1815,9 +1815,9 @@ faster	B-Predicate
 ,	O
 leaner	B-Predicate
 ,	O
-stable	B-Predicate
+stable	O
 and	O
-friendly	B-Predicate
+friendly	O
 than	O
 android	B-Object
 os	O
@@ -1830,7 +1830,7 @@ ios	B-Object
 is	O
 a	O
 simpler	B-Predicate
-os	B-Aspect
+os	O
 in	O
 comparison	O
 to	O
@@ -1910,7 +1910,7 @@ i	O
 '	O
 ve	O
 been	O
-using	B-Aspect
+using	O
 ruby	B-Object
 almost	O
 10	O
@@ -1960,7 +1960,7 @@ a	O
 third	O
 of	O
 the	O
-code	O
+code	B-Aspect
 of	O
 an	O
 equivalent	O
@@ -2037,7 +2037,7 @@ in	O
 some	O
 cases	O
 ,	O
-the	B-Predicate
+the	O
 performance	B-Aspect
 of	O
 c	B-Object
@@ -2047,7 +2047,7 @@ at	O
 least	O
 half	O
 the	O
-performance	O
+performance	B-Aspect
 of	O
 it	O
 ,	O
@@ -2065,7 +2065,7 @@ c	B-Object
 .	O
 python	B-Object
 is	O
-better	B-Predicate
+better	O
 ,	O
 but	O
 is	O
@@ -2094,7 +2094,7 @@ ruby	B-Object
 performance	B-Aspect
 ,	O
 and	O
-mindshare	O
+mindshare	B-Aspect
 .	O
 
 it	O
@@ -2148,9 +2148,9 @@ far	O
 better	B-Predicate
 suited	O
 to	O
-high	O
-performance	O
-computing	O
+high	B-Aspect
+performance	I-Aspect
+computing	I-Aspect
 than	O
 ruby	B-Object
 .	O
@@ -2370,7 +2370,7 @@ much	O
 worse	B-Predicate
 than	O
 ruby	B-Object
-python	O
+python	B-Object
 creator	O
 guido	O
 van	O
@@ -2629,7 +2629,7 @@ often	O
 and	O
 with	O
 much	O
-greater	O
+greater	B-Predicate
 expressiveness	O
 and	O
 zeal	O
@@ -2650,7 +2650,7 @@ has	O
 much	O
 greater	B-Predicate
 syntactic	B-Aspect
-flexibility	B-Aspect
+flexibility	I-Aspect
 than	O
 python	B-Object
 .	O
@@ -2669,8 +2669,8 @@ given	O
 that	O
 because	O
 of	O
-type	B-Aspect
-checking	I-Aspect
+type	O
+checking	O
 haskell	B-Object
 is	O
 faster	B-Predicate
@@ -2784,7 +2784,7 @@ than	O
 ruby	B-Object
 ,	O
 more	B-Predicate
-typeful	I-Predicate
+typeful	B-Aspect
 than	O
 c	B-Object
 #,	I-Object
@@ -2833,7 +2833,7 @@ also	O
 ,	O
 haskell	B-Object
 code	O
-runs	B-Aspect
+runs	O
 a	O
 lot	O
 faster	B-Predicate
@@ -2955,7 +2955,7 @@ faster	B-Predicate
 ,	O
 shorter	B-Predicate
 ,	O
-uses	B-Aspect
+uses	O
 less	B-Predicate
 memory	B-Aspect
 than	O
@@ -2983,7 +2983,7 @@ and	O
 you	O
 might	O
 even	O
-write	O
+write	B-Aspect
 it	O
 faster	B-Predicate
 than	O
@@ -3030,7 +3030,7 @@ python	B-Object
 (!)	O
 
 bash	B-Object
-scripting	B-Aspect
+scripting	O
 is	O
 more	O
 easier	B-Predicate
@@ -3049,7 +3049,7 @@ easier	B-Predicate
 to	O
 write	B-Aspect
 a	O
-script	O
+script	B-Aspect
 in	O
 bash	B-Object
 rather	O
@@ -3097,8 +3097,8 @@ s	O
 easier	B-Predicate
 to	O
 write	B-Aspect
-complex	O
-scripts	O
+complex	I-Aspect
+scripts	I-Aspect
 than	O
 with	O
 bash	B-Object
@@ -3107,7 +3107,7 @@ bash	B-Object
 i	O
 use	O
 the	O
-bourne	O
+bourne	B-Object
 shell	O
 for	O
 portability	O
@@ -3143,14 +3143,14 @@ than	O
 bash	B-Object
 .	O
 
-running	O
+running	B-Aspect
 bash	B-Object
 scripts	O
 is	O
 slightly	O
 lighter	B-Predicate
 than	O
-running	O
+running	B-Aspect
 perl	B-Object
 /	O
 python	B-Object
@@ -3176,7 +3176,7 @@ bash	B-Object
 it	O
 might	O
 be	O
-lighter	O
+lighter	B-Predicate
 ,	O
 but	O
 when	O
@@ -3214,7 +3214,7 @@ any	O
 work	O
 done	O
 in	O
-shell	O
+shell	B-Object
 .	O
 
 python	B-Object
@@ -3249,7 +3249,7 @@ is	O
 byte	O
 compiled	O
 while	O
-base	O
+base	B-Object
 is	O
 interperated	O
 .	O
@@ -3314,7 +3314,7 @@ one	O
 
 but	O
 any	O
-shell	O
+shell	B-Object
 script	O
 which	O
 is	O
@@ -3384,8 +3384,8 @@ often	O
 take	O
 longer	B-Predicate
 to	O
-hack	B-Aspect
-up	I-Aspect
+hack	O
+up	O
 a	O
 quick	O
 little	O
@@ -3445,7 +3445,7 @@ python	B-Object
 javascript	B-Object
 in	O
 v8	O
-executes	B-Aspect
+executes	O
 about	O
 ten	O
 times	O
@@ -3472,7 +3472,7 @@ to	O
 v8	O
 ,	O
 it	O
-executes	B-Aspect
+executes	O
 javascript	B-Object
 faster	B-Predicate
 than	O
@@ -3492,7 +3492,7 @@ fast	O
 ,	O
 i	O
 think	O
-v8	B-Object
+v8	O
 is	O
 faster	B-Predicate
 then	O
@@ -3566,7 +3566,7 @@ microsoft	B-Object
 google	B-Object
 ,	O
 and	O
-mozilla	B-Object
+mozilla	O
 have	O
 invested	O
 heavily	O
@@ -3662,7 +3662,7 @@ python	B-Object
 isn	O
 '	O
 t	O
-pascal	O
+pascal	B-Object
 but	O
 it	O
 '	O
@@ -3705,7 +3705,7 @@ well	O
 partly	O
 because	O
 the	O
-chrome	B-Object
+chrome	O
 javascript	B-Object
 engine	O
 is	O
@@ -3723,8 +3723,8 @@ but	O
 also	O
 because	O
 the	O
-chrome	B-Object
-apis	B-Aspect
+chrome	O
+apis	O
 are	O
 fairly	O
 thin	O
@@ -3732,7 +3732,7 @@ layers	O
 over	O
 native	O
 os	O
-apis	B-Aspect
+apis	O
 .	O
 
 picking	O
@@ -3788,7 +3788,7 @@ one	O
 --	O
 known	O
 --	O
-javascript	O
+javascript	B-Object
 function	O
 ,	O
 it	O
@@ -3796,7 +3796,7 @@ may	O
 be	O
 easier	B-Predicate
 to	O
-implement	O
+implement	B-Aspect
 this	O
 function	O
 in	O
@@ -3847,10 +3847,10 @@ code	O
 ,	O
 making	O
 it	O
-easier	B-Predicate
+easier	O
 to	O
 vote	B-Aspect
-up	O
+up	I-Aspect
 ,	O
 although	O
 fiddles	O
@@ -3885,15 +3885,15 @@ python	B-Object
 ,	O
 java	B-Object
 and	O
-flash	O
+flash	B-Object
 is	O
 so	O
 much	O
 easier	B-Predicate
 than	O
-writing	B-Aspect
+writing	O
 a	O
-gui	B-Aspect
+gui	O
 in	O
 javascript	B-Object
 .	O
@@ -3903,7 +3903,7 @@ you	O
 are	O
 a	O
 proficient	O
-java	B-Object
+java	O
 programmer	O
 but	O
 are	O
@@ -3911,7 +3911,7 @@ unfamiliar	O
 with	O
 python	B-Object
 or	O
-tcl	O
+tcl	B-Object
 ,	O
 you	O
 may	O
@@ -3926,14 +3926,14 @@ scripts	O
 with	O
 javascript	B-Object
 or	O
-beanshell	B-Object
+beanshell	O
 than	O
 you	O
 will	O
 with	O
-jython	B-Object
+jython	O
 or	O
-jacl	B-Object
+jacl	O
 ,	O
 since	O
 there	O
@@ -3991,7 +3991,7 @@ not	B-Predicate
 as	I-Predicate
 easy	I-Predicate
 as	I-Predicate
-debugging	O
+debugging	B-Aspect
 your	O
 python	B-Object
 code	O
@@ -4007,8 +4007,8 @@ already	O
 .	O
 
 python	B-Object
-unicode	O
-support	O
+unicode	B-Aspect
+support	I-Aspect
 has	O
 always	O
 seemed	O
@@ -4099,7 +4099,7 @@ and	O
 python	B-Object
 is	O
 a	O
-nicer	O
+nicer	B-Predicate
 language	O
 of	O
 course	O
@@ -4192,8 +4192,8 @@ much	O
 easier	B-Predicate
 to	O
 write	B-Aspect
-bad	O
-code	O
+bad	B-Aspect
+code	I-Aspect
 in	O
 perl	B-Object
 than	O
@@ -4378,9 +4378,9 @@ to	O
 his	O
 greater	B-Predicate
 ease	B-Aspect
-before	O
+before	I-Aspect
 the	O
-camera	O
+camera	B-Aspect
 than	O
 nixon	B-Object
 ,	O
@@ -4487,11 +4487,11 @@ in	O
 
 kennedy	B-Object
 came	O
-across	O
+across	B-Aspect
 much	O
 better	B-Predicate
 on	O
-television	B-Aspect
+television	O
 than	O
 the	O
 ill	O
@@ -4565,8 +4565,8 @@ said	O
 kennedy	B-Object
 better	B-Predicate
 expressed	B-Aspect
-the	I-Aspect
-views	I-Aspect
+the	O
+views	O
 of	O
 the	O
 american	O
@@ -4607,8 +4607,8 @@ rival	O
 ,	O
 vice	O
 president	O
-richard	B-Object
-nixon	B-Object
+richard	O
+nixon	O
 .	O
 
 the	O
@@ -4623,7 +4623,7 @@ a	O
 younger	O
 ,	O
 more	O
-sophisticated	I-Predicate
+sophisticated	O
 ,	O
 but	O
 unknown	O
@@ -4638,7 +4638,7 @@ better	B-Predicate
 in	O
 a	O
 televised	O
-debate	B-Aspect
+debate	O
 than	O
 a	O
 tired	O
@@ -4674,7 +4674,7 @@ than	O
 did	O
 his	O
 opponent	O
-richard	B-Object
+richard	O
 m	O
 .	O
 nixon	B-Object
@@ -4712,7 +4712,7 @@ on	O
 election	O
 day	O
 for	O
-jack	B-Object
+jack	O
 kennedy	B-Object
 was	O
 that	O
@@ -4730,7 +4730,7 @@ far	O
 better	B-Predicate
 president	B-Aspect
 than	O
-richard	B-Object
+richard	O
 fucking	O
 nixon	B-Object
 ,	O
@@ -4752,7 +4752,7 @@ make	O
 up	O
 and	O
 so	O
-appeared	O
+appeared	B-Aspect
 cooler	B-Predicate
 and	O
 more	B-Predicate
@@ -4769,7 +4769,7 @@ nixon	B-Object
 -	O
 actually	O
 ,	O
-nixon	O
+nixon	B-Object
 in	O
 1968	O
 and	O
@@ -4809,7 +4809,7 @@ to	O
 look	B-Aspect
 at	I-Aspect
 than	O
-richard	B-Object
+richard	O
 nixon	B-Object
 .	O
 
@@ -4845,7 +4845,7 @@ then	O
 his	O
 opponent	O
 ,	O
-gene	B-Object
+gene	O
 mccarthy	B-Object
 and	O
 certainly	O
@@ -4917,7 +4917,7 @@ grade	O
 ,	O
 he	O
 supported	O
-john	B-Object
+john	O
 f	O
 .	O
 kennedy	B-Object
@@ -4974,7 +4974,7 @@ apparently	O
 better	B-Predicate
 than	O
 hubert	O
-humphrey	B-Object
+humphrey	O
 ,	O
 who	O
 did	O
@@ -5087,13 +5087,13 @@ have	O
 found	O
 that	O
 blood	O
-carbon	B-Aspect
+carbon	O
 and	O
 nitrogen	O
-turnover	I-Aspect
+turnover	O
 was	O
 roughly	O
-equivalent	B-Predicate
+equivalent	O
 in	O
 mice	B-Object
 and	O
@@ -5103,7 +5103,7 @@ rats	B-Object
 and	O
 that	O
 mouse	B-Object
-blood	O
+blood	B-Aspect
 turned	B-Aspect
 over	I-Aspect
 slightly	O
@@ -5116,7 +5116,7 @@ blood	O
 they	O
 found	O
 that	O
-rodents	B-Object
+rodents	O
 have	O
 mutated	B-Aspect
 about	O
@@ -5124,7 +5124,7 @@ three	O
 times	O
 faster	B-Predicate
 than	O
-humans	O
+humans	B-Object
 over	O
 the	O
 past	O
@@ -5163,7 +5163,7 @@ annotation	B-Aspect
 of	O
 the	O
 mouse	B-Object
-genome	B-Aspect
+genome	O
 is	O
 better	B-Predicate
 than	O
@@ -5171,14 +5171,14 @@ that	O
 of	O
 the	O
 guinea	B-Object
-pig	I-Object
+pig	B-Object
 while	O
 the	O
 guinea	B-Object
 pig	I-Object
-genome	B-Aspect
+genome	O
 is	O
-more	B-Predicate
+more	O
 similar	B-Predicate
 to	O
 that	O
@@ -5224,7 +5224,7 @@ have	O
 found	O
 that	O
 mouse	B-Object
-tissue	B-Aspect
+tissue	O
 is	O
 much	O
 easier	B-Predicate
@@ -5291,7 +5291,7 @@ diameter	O
 neurons	O
 from	O
 rat	B-Object
-responded	B-Aspect
+responded	O
 to	O
 cinn	O
 ,	O
@@ -5318,7 +5318,7 @@ b	O
 ).	O
 
 rat	B-Object
-myocytes	B-Aspect
+myocytes	O
 were	O
 chosen	O
 for	O
@@ -5408,7 +5408,7 @@ used	O
 rat	B-Object
 and	O
 human	B-Object
-atii	B-Aspect
+atii	O
 cells	O
 because	O
 they	O
@@ -5444,7 +5444,7 @@ would	O
 guess	O
 that	O
 rat	B-Object
-aortas	B-Aspect
+aortas	O
 would	O
 be	O
 easier	B-Predicate
@@ -5470,11 +5470,11 @@ by	O
 drug	O
 maker	O
 wyeth	O
--	O
-ayerst	O
+-	B-Object
+ayerst	I-Object
 and	O
 johns	O
-hopkins	O
+hopkins	B-Object
 have	O
 engineered	O
 and	O
@@ -5614,7 +5614,7 @@ said	O
 due	O
 to	O
 their	O
-larger	O
+larger	B-Predicate
 body	O
 size	O
 ,	O
@@ -5632,8 +5632,8 @@ mouse	B-Object
 has	O
 a	O
 larger	B-Predicate
-v1r	O
-repertoire	B-Aspect
+v1r	B-Aspect
+repertoire	I-Aspect
 than	O
 the	O
 rat	B-Object
@@ -5647,7 +5647,7 @@ when	O
 it	O
 comes	O
 to	O
-horsepower	B-Aspect
+horsepower	O
 ,	O
 the	O
 audi	B-Object
@@ -5700,7 +5700,7 @@ through	O
 the	O
 lane	O
 -	O
-change	O
+change	B-Aspect
 test	O
 at	O
 57	O
@@ -5827,7 +5827,7 @@ over	O
 first	O
 in	O
 the	O
-lexus	O
+lexus	B-Object
 .	O
 
 at	O
@@ -5864,7 +5864,7 @@ audi	B-Object
 a6	O
 with	O
 even	O
-greater	B-Predicate
+greater	O
 advantages	B-Aspect
 over	O
 the	O
@@ -5886,7 +5886,7 @@ class	O
 
 audi	B-Object
 q5	O
-looks	B-Aspect
+looks	O
 much	O
 wider	B-Predicate
 than	O
@@ -5942,7 +5942,7 @@ lexus	B-Object
 not	B-Predicate
 to	O
 be	O
-inferior	I-Predicate
+inferior	B-Predicate
 to	O
 audi	B-Object
 in	O
@@ -5977,7 +5977,7 @@ and	O
 audi	B-Object
 in	O
 the	O
-performance	B-Aspect
+performance	O
 segment	O
 .	O
 
@@ -6010,7 +6010,7 @@ audi	B-Object
 bmw	B-Object
 and	O
 mercedes	B-Object
-benz	O
+benz	I-Object
 .	O
 
 we	O
@@ -6147,7 +6147,7 @@ had	O
 vibrations	O
 with	O
 road	O
-force	I-Aspect
+force	O
 greater	O
 than	O
 10	O
@@ -6155,17 +6155,17 @@ my	O
 audi	B-Object
 vibrated	O
 with	O
-road	B-Aspect
-force	I-Aspect
-greater	B-Predicate
+road	O
+force	O
+greater	O
 than	O
 15	O
 my	O
 mercedes	B-Object
 vibrated	O
 with	O
-road	B-Aspect
-force	I-Aspect
+road	O
+force	O
 greater	O
 than	O
 12	O
@@ -6194,7 +6194,7 @@ than	O
 audi	B-Object
 .	O
 
-outhandles	O
+outhandles	B-Predicate
 a	O
 bmw	B-Object
 ,	O
@@ -6205,7 +6205,7 @@ a	O
 lexus	B-Object
 ,	O
 better	B-Predicate
-made	I-Predicate
+made	B-Aspect
 than	O
 a	O
 audi	B-Object
@@ -6225,7 +6225,7 @@ the	O
 catera	B-Object
 '	O
 s	O
-weight	B-Aspect
+weight	O
 with	O
 a	O
 60	O
@@ -6284,7 +6284,7 @@ are	O
 over	O
 400	O
 pounds	O
-lighter	O
+lighter	B-Predicate
 than	O
 the	O
 caddy	B-Object
@@ -6314,7 +6314,7 @@ a	O
 better	B-Predicate
 brand	O
 value	B-Aspect
-proposition	I-Aspect
+proposition	O
 than	O
 volvo	B-Object
 or	O
@@ -6362,7 +6362,7 @@ but	O
 worse	B-Predicate
 than	O
 the	O
-lexus	O
+lexus	B-Object
 is	O
 and	O
 acura	B-Object
@@ -6467,8 +6467,8 @@ v	O
 ,	O
 but	O
 it	O
-doesn	B-Predicate
-'	I-Predicate
+doesn	O
+'	B-Predicate
 t	I-Predicate
 feel	O
 appreciably	O
@@ -6502,7 +6502,7 @@ its	O
 competitors	O
 from	O
 mercedes	B-Object
--	O
+-	I-Object
 benz	I-Object
 ,	O
 lexus	B-Object
@@ -6568,7 +6568,7 @@ were	O
 buying	O
 a	O
 better	B-Predicate
-engineered	I-Predicate
+engineered	B-Aspect
 ,	O
 faster	B-Predicate
 ,	O
@@ -6650,7 +6650,7 @@ lexus	B-Object
 as	O
 far	O
 as	O
-luxury	B-Aspect
+luxury	O
 goes	O
 .	O
 
@@ -6745,7 +6745,7 @@ to	O
 prefer	O
 the	O
 rounded	O
-styling	B-Aspect
+styling	O
 of	O
 most	O
 current	O
@@ -6792,7 +6792,7 @@ in	O
 the	O
 buick	B-Object
 and	O
-olds	O
+olds	B-Object
 wouldn	O
 '	O
 t	O
@@ -6875,7 +6875,7 @@ was	O
 hurt	O
 by	O
 weak	O
-reliability	B-Aspect
+reliability	O
 .	O
 
 in	O
@@ -6886,7 +6886,7 @@ had	O
 a	O
 higher	B-Predicate
 horsepower	B-Aspect
-engine	B-Aspect
+engine	O
 than	O
 the	O
 cadillac	B-Object
@@ -6929,7 +6929,7 @@ cadillac	B-Object
 cadillac	B-Object
 has	O
 sharper	B-Predicate
-lines	O
+lines	B-Aspect
 ,	O
 appealing	O
 to	O
@@ -6950,7 +6950,7 @@ is	O
 a	O
 lot	O
 more	B-Predicate
-vehicle	I-Predicate
+vehicle	O
 for	O
 the	O
 money	O
@@ -6971,7 +6971,7 @@ bigger	O
 ,	O
 softer	B-Predicate
 ,	O
-floatier	B-Predicate
+floatier	O
 ,	O
 highway	O
 -	O
@@ -6994,7 +6994,7 @@ t	O
 like	O
 the	O
 cadillac	B-Object
-design	O
+design	B-Aspect
 language	O
 with	O
 all	O
@@ -7071,7 +7071,7 @@ they	O
 weren	B-Predicate
 '	I-Predicate
 t	I-Predicate
-better	I-Predicate
+better	B-Predicate
 than	O
 an	O
 oldsmobile	B-Object
@@ -7086,7 +7086,7 @@ still	O
 ,	O
 though	O
 cadillac	B-Object
-sales	O
+sales	B-Aspect
 were	O
 flat	O
 last	O
@@ -7159,7 +7159,7 @@ the	O
 mainstream	O
 chevrolet	B-Object
 and	O
-below	O
+below	B-Predicate
 the	O
 luxury	O
 cadillac	B-Object
@@ -7199,12 +7199,12 @@ cent	O
 greater	B-Predicate
 than	O
 the	O
-lexus	O
+lexus	B-Object
 lx	O
 570	O
 and	O
-land	O
-rover	O
+land	B-Object
+rover	I-Object
 range	O
 rover	O
 .	O
@@ -7246,7 +7246,7 @@ which	O
 sacrificed	O
 2nd	O
 row	O
-legroom	B-Aspect
+legroom	O
 for	O
 the	O
 3rd	O
@@ -7262,7 +7262,7 @@ escalade	O
 s	O
 epa	O
 highway	O
-rating	B-Aspect
+rating	O
 of	O
 21	O
 mpg	O
@@ -7287,7 +7287,7 @@ either	O
 the	O
 mercedes	B-Object
 -	O
-benz	I-Object
+benz	O
 gl550	O
 or	O
 lexus	B-Object
@@ -7307,7 +7307,7 @@ looked	O
 at	O
 as	O
 higher	B-Predicate
-class	B-Aspect
+class	I-Predicate
 than	O
 cadillac	B-Object
 .	O
@@ -7318,7 +7318,7 @@ lincoln	B-Object
 and	O
 jaguar	B-Object
 all	O
-score	O
+score	B-Aspect
 higher	B-Predicate
 than	O
 mb	B-Object
@@ -7434,7 +7434,7 @@ factors	O
 (	O
 cost	O
 ,	O
-availability	B-Aspect
+availability	O
 ,	O
 etc	O
 ).	O
@@ -7449,7 +7449,7 @@ which	O
 he	O
 now	O
 said	O
-sucks	O
+sucks	B-Predicate
 compared	O
 to	O
 the	O
@@ -7484,7 +7484,7 @@ bmw	B-Object
 ,	O
 let	O
 alone	O
-lexus	O
+lexus	B-Object
 .	O
 
 hands	O
@@ -7515,8 +7515,8 @@ conclusion	O
 that	O
 the	O
 equus	B-Object
-isn	B-Predicate
-'	I-Predicate
+isn	O
+'	B-Predicate
 t	I-Predicate
 as	I-Predicate
 refined	I-Predicate
@@ -7528,7 +7528,7 @@ would	O
 be	O
 as	B-Predicate
 refined	I-Predicate
-as	O
+as	I-Predicate
 a	O
 lexus	B-Object
 is	O
@@ -7558,7 +7558,7 @@ s	O
 .	O
 
 i	O
-no	O
+no	B-Predicate
 more	O
 defend	O
 that	O
@@ -7617,9 +7617,9 @@ holidays	O
 ).	O
 
 who	O
-doesn	B-Predicate
-'	I-Predicate
-t	I-Predicate
+doesn	O
+'	O
+t	O
 favor	O
 samsung	B-Object
 over	O
@@ -7636,7 +7636,7 @@ a	O
 3	O
 %	O
 market	B-Aspect
-share	O
+share	I-Aspect
 ,	O
 leaving	O
 nokia	B-Object
@@ -7675,14 +7675,14 @@ hoping	O
 that	O
 nokia	B-Object
 update	B-Aspect
-process	O
+process	I-Aspect
 will	O
 be	O
 easier	B-Predicate
 and	O
 less	B-Predicate
 wait	B-Aspect
-time	I-Aspect
+time	O
 than	O
 samsung	B-Object
 focus	O
@@ -7697,7 +7697,7 @@ much	O
 easier	B-Predicate
 to	O
 compete	B-Aspect
-with	O
+with	I-Aspect
 nokia	B-Object
 than	O
 samsung	B-Object
@@ -7792,7 +7792,7 @@ better	B-Predicate
 than	O
 samsung	B-Object
 and	O
-htc	O
+htc	B-Object
 '	O
 s	O
 wp8	O
@@ -7848,7 +7848,7 @@ constantly	O
 updating	B-Aspect
 their	O
 wp8	O
-apps	B-Aspect
+apps	O
 ,	O
 more	B-Predicate
 than	O
@@ -7876,7 +7876,7 @@ and	O
 its	O
 smartphones	O
 were	O
-technologically	O
+technologically	B-Aspect
 superior	B-Predicate
 to	O
 anything	O
@@ -7975,7 +7975,7 @@ sonyericsson	B-Object
 ,	O
 samsung	B-Object
 ,	O
-lg	O
+lg	B-Object
 or	O
 any	O
 other	O
@@ -8014,7 +8014,7 @@ off	O
 ,	O
 the	O
 prototype	O
-n8	O
+n8	B-Object
 posted	O
 a	O
 score	B-Aspect
@@ -8082,8 +8082,8 @@ lumia	O
 928	O
 has	O
 higher	B-Predicate
-user	O
-rating	B-Aspect
+user	B-Aspect
+rating	I-Aspect
 than	O
 samsung	B-Object
 galaxy	O
@@ -8101,7 +8101,7 @@ a	O
 higher	B-Predicate
 -	O
 resolution	B-Aspect
-sensor	O
+sensor	B-Aspect
 than	O
 the	O
 samsung	B-Object
@@ -8123,8 +8123,8 @@ india	O
 than	O
 nokia	B-Object
 by	O
-selling	O
-fewer	O
+selling	B-Aspect
+fewer	B-Predicate
 phones	O
 .	O
 
@@ -8164,7 +8164,7 @@ samsung	B-Object
 and	O
 motorola	B-Object
 were	O
-quicker	O
+quicker	B-Predicate
 to	O
 unveil	O
 .	O
@@ -8174,26 +8174,26 @@ night	O
 mode	O
 on	O
 the	O
-galaxy	B-Object
+galaxy	O
 s4	O
 zoom	O
 versus	O
 the	O
 nokia	B-Object
-lumia	O
+lumia	B-Object
 1020	O
 ,	O
 i	O
 find	O
 that	O
 the	O
-lumia	B-Aspect
+lumia	B-Object
 1020	O
 is	O
 able	O
 to	O
 take	B-Aspect
-shots	B-Aspect
+shots	I-Aspect
 much	O
 quicker	B-Predicate
 and	O
@@ -8226,9 +8226,9 @@ shape	O
 samsung	B-Object
 e2252	O
 is	O
-bigger	O
+bigger	B-Predicate
 is	O
-size	O
+size	B-Aspect
 but	O
 position	O
 and	O
@@ -8238,7 +8238,7 @@ keypad	O
 along	O
 with	O
 bigger	O
-screen	B-Aspect
+screen	O
 is	O
 designed	O
 in	O
@@ -8407,7 +8407,7 @@ where	O
 sony	B-Object
 managed	O
 to	O
-return	B-Aspect
+return	O
 93	O
 %	O
 of	O
@@ -8472,7 +8472,7 @@ at	O
 inrs	O
 ...	O
 more	O
-lg	O
+lg	B-Object
 c105	O
 and	O
 samsung	B-Object
@@ -8499,7 +8499,7 @@ slow	O
 but	O
 surely	O
 general	O
-price	B-Aspect
+price	O
 of	O
 nokia	B-Object
 phones	O
@@ -8513,7 +8513,7 @@ samsung	B-Object
 ,	O
 htc	B-Object
 to	O
-price	B-Aspect
+price	O
 wp8	O
 models	O
 cheaper	B-Predicate
@@ -8568,7 +8568,7 @@ samsung	B-Object
 has	O
 cheaper	B-Predicate
 camera	B-Aspect
-hardware	I-Aspect
+hardware	O
 than	O
 nokia	B-Object
 ).	O
@@ -8616,7 +8616,7 @@ better	B-Predicate
 cameras	B-Aspect
 than	O
 the	O
-lg8600	O
+lg8600	B-Object
 ,	O
 the	O
 nokia	B-Object
@@ -8652,8 +8652,8 @@ iphone	B-Object
 it	O
 is	O
 not	B-Predicate
-even	I-Predicate
-beat	I-Predicate
+even	O
+beat	B-Predicate
 samsung	B-Object
 fascinate	O
 which	O
@@ -8694,7 +8694,7 @@ oct	O
 samsung	B-Object
 has	O
 dslr	O
-cameras	B-Aspect
+cameras	O
 ,	O
 of	O
 course	O
@@ -8830,11 +8830,11 @@ quality	I-Aspect
 of	O
 the	O
 samsung	B-Object
-does	B-Predicate
-not	I-Predicate
+does	O
+not	B-Predicate
 rival	I-Predicate
 the	O
-cheaper	B-Predicate
+cheaper	O
 of	O
 the	O
 two	O
@@ -8870,7 +8870,7 @@ for	O
 samsung	B-Object
 as	O
 the	O
-price	O
+price	B-Aspect
 of	O
 samsung	B-Object
 samsung	O
@@ -8897,7 +8897,7 @@ is	O
 that	O
 the	O
 toshiba	B-Object
-drives	O
+drives	B-Aspect
 are	O
 noticeably	O
 slower	B-Predicate
@@ -8921,8 +8921,8 @@ and	O
 toshiba	B-Object
 models	O
 had	O
-comparable	O
-contrast	O
+comparable	B-Predicate
+contrast	B-Aspect
 ,	O
 and	O
 both	O
@@ -8953,7 +8953,7 @@ samsung	B-Object
 ssds	O
 read	B-Aspect
 and	O
-write	O
+write	B-Aspect
 speeds	I-Aspect
 are	O
 significantly	O
@@ -8990,7 +8990,7 @@ significantly	O
 faster	B-Predicate
 read	B-Aspect
 and	O
-write	O
+write	B-Aspect
 speeds	I-Aspect
 than	O
 the	O
@@ -9007,7 +9007,7 @@ below	O
 )	O
 the	O
 samsung	B-Object
-ssd	O
+ssd	B-Aspect
 is	O
 significantly	O
 faster	B-Predicate
@@ -9094,7 +9094,7 @@ the	O
 toshiba	B-Object
 -	O
 based	O
-ssd	B-Object
+ssd	O
 ,	O
 you	O
 got	O
@@ -9130,9 +9130,9 @@ than	O
 rivals	O
 as	O
 its	O
-reliance	O
+reliance	B-Aspect
 on	O
-apple	B-Object
+apple	O
 ,	O
 which	O
 tends	O
@@ -9144,7 +9144,7 @@ a	O
 bit	O
 ,	O
 is	O
-small	B-Predicate
+small	O
 compared	O
 to	O
 the	O
@@ -9166,7 +9166,7 @@ this	O
 state	O
 the	O
 toshiba	B-Object
-drive	O
+drive	B-Aspect
 is	O
 faster	B-Predicate
 than	O
@@ -9204,7 +9204,7 @@ even	O
 bigger	B-Predicate
 flash	O
 -	O
-memory	O
+memory	B-Aspect
 supplier	O
 than	O
 toshiba	B-Object
@@ -9342,7 +9342,7 @@ spot	O
 and	O
 samsung	B-Object
 falls	O
-behind	O
+behind	B-Predicate
 because	O
 of	O
 its	O
@@ -9410,7 +9410,7 @@ samsung	B-Object
 series	O
 9	O
 or	O
-macbook	O
+macbook	B-Object
 air	O
 ,	O
 and	O
@@ -9424,7 +9424,7 @@ around	O
 
 like	O
 the	O
-toshiba	O
+toshiba	B-Object
 thrive	O
 ,	O
 the	O
@@ -9510,7 +9510,7 @@ inches	O
 hwd	O
 ),	O
 and	O
-weighs	B-Aspect
+weighs	O
 4	O
 .	O
 5	O
@@ -9574,7 +9574,7 @@ clear	O
 picture	B-Aspect
 and	O
 extreme	O
-sound	O
+sound	B-Aspect
 .	O
 
 i	O
@@ -9625,7 +9625,7 @@ or	O
 mitsubishi	B-Object
 (	O
 more	O
-noise	O
+noise	B-Aspect
 than	O
 some	O
 others	O
@@ -9647,7 +9647,7 @@ which	O
 was	O
 more	O
 than	O
-twice	O
+twice	B-Predicate
 the	O
 price	B-Aspect
 and	O
@@ -9737,7 +9737,7 @@ too	O
 .	O
 
 design	O
-toshiba	O
+toshiba	B-Object
 makes	O
 much	O
 of	O
@@ -9777,7 +9777,7 @@ the	O
 '	O
 new	O
 '	O
-ipad	O
+ipad	B-Object
 (	O
 9	O
 .	O
