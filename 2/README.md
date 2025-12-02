@@ -71,7 +71,7 @@ To achieve maximum performance on the Test set, I utilized DeBERTa-V3.
 *   **Why DeBERTa:** It utilizes **Disentangled Attention** and **Relative Position Embeddings**, which are crucial for Semantic Role Labeling where the relationship/distance between the predicate and the object is defining.
 *   **Ensemble Strategy:** Trained 5 separate models. Logits were averaged to reduce variance.
 
-### 5. Final Grandmaster Strategy (10-Fold + LLRD + Logic Repair)
+### 5. Final  Strategy (10-Fold + LLRD + Logic Repair)
 To reach the top of the leaderboard (Rank #2), I added three advanced optimizations to the DeBERTa pipeline:
 *   **10-Fold CV:** Increased folds from 5 to 10 to maximize data coverage.
 *   **Layer-wise Learning Rate Decay (LLRD):** The bottom layers (embeddings) were trained with a very low learning rate to preserve pre-trained knowledge, while top layers trained faster. This prevented "catastrophic forgetting."
@@ -92,7 +92,7 @@ The table below summarizes the performance comparison. The **Optimized DeBERTa (
 | **DeBERTa (10-Fold + LLRD)** | 0.8761 | 0.9524 | **0.7423** | **0.8802** |
 
 ### Analysis
-*   **Generalization:** While RoBERTa performed anomalously well on the small Dev set, the **Grandmaster Ensemble** proved superior on the larger, more representative Test set (+1.9% over RoBERTa).
+*   **Generalization:** While RoBERTa performed anomalously well on the small Dev set, the **Final Ensemble** proved superior on the larger, more representative Test set (+1.9% over RoBERTa).
 *   **Optimization:** The combination of LLRD and Logic Repair squeezed out the final 0.2% needed to reach 0.88+ F1, fixing syntax errors that raw models often make.
 *   **Stability:** The 10-Fold approach ensured that the model didn't overfit to any specific subset of the training data.
 
