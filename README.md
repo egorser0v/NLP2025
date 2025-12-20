@@ -12,5 +12,5 @@ Below is the list of assignments available in this repository:
 - **[Assignment 2: Semantic Role Labelling](./2/)**
   - Located in: `./2/`
 
-- **[Assignment 3](./3/)**
+- **[Assignment 3: Taxonomy Enrichment](./3/)**
   - Located in: `./3/`
